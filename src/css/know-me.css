@@ -1,17 +1,17 @@
 #know-me h2 {
     text-align: center;
+    /* pushing the pic to the bottom to using navbar */
+    padding: 2em 0 1em 0;
 }
 
 #know-me .benefitsBox {
-    margin: 10em 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    row-gap: 2em;
 }
 
 #know-me .benefitsBox .box {
-    width: 30%;
     max-width: 300px;
     background: var(--gray);
     border: 1px solid var(--white);

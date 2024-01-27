@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1360px) {
+    #know-me .benefitsBox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    #about {
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+    }
+
+    #about .right-side img {
+        padding-top: 0em;
+    }
+
+    #about h2 {
+        padding-top: 2em;
+    }
+
+    #about .right-side {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #hero h1,
+    #hero h1 div {
+        gap: 0em;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    nav ul {
+        display: none;
+    }
+
+    #know-me .benefitsBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact .labelsArea {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact .labelsArea label {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #hero h1,
+    #hero h1 div {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+}

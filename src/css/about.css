@@ -1,6 +1,5 @@
 #about {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -28,6 +27,8 @@
     width: 50%;
     max-width: 500px;
     border-radius: .1em 1em;
+    /* pushing the pic to the bottom to using navbar */
+    padding-top: 7em;
 }
 
 #about .left-side h3 {

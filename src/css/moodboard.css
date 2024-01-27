@@ -1,5 +1,6 @@
 #moodboard h2 {
-    margin-bottom:.5em;
+    /* pushing the pic to the bottom to using navbar */
+    padding: 2em 0 0.5em 0;
 }
 
 #moodboard img {
@@ -8,6 +9,7 @@
 
 .board {
     width: 50%;
+    min-width: 250px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

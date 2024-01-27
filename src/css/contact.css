@@ -3,6 +3,10 @@
     place-items: center;
 }
 
+#contact h2 {
+    padding-top: 2em;
+}
+
 #contact .text p {
     max-width: 500px;
     text-align: center;
@@ -15,23 +19,23 @@ form {
     border-radius: .5em;
     padding: 1em;
     width: 70%;
+    max-width: 1100px;
 }
 
 .labelsArea,
 .labelsArea .left-side {
    display: flex;
    flex-direction: column;
+   width: 100%;
 }
 
 .labelsArea {
     flex-direction: row;
-    width: 100%;
     gap: 1em;
 }
 
 .labelsArea .left-side,
 .labelsArea .right-side {
-    width: 50%;
     gap: 1em;
 }
 
