@@ -1,0 +1,45 @@
+#know-me h2 {
+    text-align: center;
+}
+
+#know-me .benefitsBox {
+    margin: 10em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#know-me .benefitsBox .box {
+    width: 30%;
+    max-width: 300px;
+    background: var(--gray);
+    border: 1px solid var(--white);
+    border-radius: .1em 2em;
+    padding: 1em;
+}
+
+#know-me .benefitsBox .box img {
+    width: 3.5em;
+    background: var(--orange-lg);
+    border-radius: 100%;
+    padding: .3em;
+}
+
+#know-me .benefitsBox .box h3 {
+    font-size: .9em;
+    margin: 1em 0;
+}
+
+#know-me .benefitsBox .box p {
+    font-size: .8em;
+    margin-bottom: 2em;
+    max-width: 700px;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+#know-me .benefitsBox .box a {
+   display: block;
+   text-align: center;
+}

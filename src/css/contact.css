@@ -1,0 +1,71 @@
+#contact {
+    display: grid;
+    place-items: center;
+}
+
+#contact .text p {
+    max-width: 500px;
+    text-align: center;
+    margin: 2em 0;
+}
+
+/* Form stylization */
+form {
+    border: 1px solid var(--gray);
+    border-radius: .5em;
+    padding: 1em;
+    width: 70%;
+}
+
+.labelsArea,
+.labelsArea .left-side {
+   display: flex;
+   flex-direction: column;
+}
+
+.labelsArea {
+    flex-direction: row;
+    width: 100%;
+    gap: 1em;
+}
+
+.labelsArea .left-side,
+.labelsArea .right-side {
+    width: 50%;
+    gap: 1em;
+}
+
+/* Inputs stylization */
+input,
+textarea {
+    width: 100%;
+    color: var(--white);
+    background: transparent;
+}
+
+label {
+    background: var(--gray);
+    width: 100%;
+    position: relative;
+}
+
+.span {
+    position: absolute;
+    left: 1em;
+    top: 1.2em;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+
+form button {
+    width: 100%;
+    margin: 1em 0;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.selected {
+    top: .4em;
+    font-size: .8em;
+}

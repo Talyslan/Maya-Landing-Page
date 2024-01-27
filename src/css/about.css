@@ -1,0 +1,37 @@
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about h2 {
+    text-align: start;
+}
+
+#about p {
+    max-width: 500px;
+}
+
+#about .left-side,
+#about .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+#about .right-side .text p {
+    margin-top: 1em;
+}
+
+#about .right-side img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: .1em 1em;
+}
+
+#about .left-side h3 {
+    color: var(--orange-lg);
+    text-shadow: 0 0 12px var(--orange);
+}
+

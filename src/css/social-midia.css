@@ -1,0 +1,20 @@
+.social-midias {
+    display: flex;
+    gap: 1.5em;
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+}
+
+.social-midias a img {
+    width: 2.5em;
+    padding: .5em;
+    border-bottom: 2px solid transparent;
+    /* filter: invert(35%) sepia(93%) saturate(1556%) hue-rotate(0deg) brightness(100%) contrast(90%); */
+    transition: .5s ease;
+}
+
+.social-midias a img:hover {
+    border-bottom-color: var(--white);
+    filter: invert(41%) sepia(53%) saturate(3721%) hue-rotate(345deg) brightness(101%) contrast(90%);
+}

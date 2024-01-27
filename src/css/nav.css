@@ -1,0 +1,61 @@
+header,
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    padding: .5em 2em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+/* Site Logo */
+nav > a > img {
+    width: 3.3em;
+    filter: invert();
+    transition: all .3s ease;
+}
+
+nav ul {
+    display: flex;
+    gap: 4em;
+}
+
+/* Links navegation */
+nav ul li > a {
+    border-bottom: 2px solid transparent;
+    padding-bottom: .5em;
+    font-weight: bold;
+    transition: all ease .25s;
+}
+
+nav ul li > a:hover {
+    color: var(--orange);
+    border-bottom-color: var(--orange);
+}
+
+/* Depois de scrolled */
+.scrolled {
+    background: var(--white);
+}
+
+.scrolled nav a {
+    color: var(--black);
+}
+
+.scrolled nav a img {
+    filter: invert(0%);
+}
+
+.scrolled nav > a:last-child:hover {
+    color: var(--white);
+}

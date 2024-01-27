@@ -1,0 +1,13 @@
+.link {
+    padding: .5em .8em;
+    border-radius: .1em .8em;
+    border: .1em solid;
+    font-weight: bold;
+    transition: all ease .25s;
+}
+
+.link:hover {
+    border-color: transparent;
+    background: var(--orange);
+    box-shadow: 0 0 8px var(--orange);
+}
