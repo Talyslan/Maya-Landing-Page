@@ -41,8 +41,12 @@
 }
 
 @media only screen and (max-width: 730px) {
-    nav ul {
+    nav {
         display: none;
+    }
+
+    .open-nav {
+        display: block;
     }
 
     #know-me .benefitsBox {
