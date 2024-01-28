@@ -1,14 +1,12 @@
 <h1 align="center"> Maya - Landing Page </h1>
 
-<img height="500" src="" alt="Layout no Computador" />
-<img height="500" src="" alt="Layout no Celular 1" /> 
+<img height="500" src="https://github.com/Talyslan/Maya-Landing-Page/assets/78499700/8cf292ba-0fb4-43ea-a0c3-2b220549b7ab" alt="Layout no Computador" />
+<img height="500" src="https://github.com/Talyslan/Maya-Landing-Page/assets/78499700/4b1fc9bf-c28b-4206-9eb3-ee204019a0a5" alt="Layout no Celular 1" />
 
 ## 🛸 O Projeto
-<img height="200" src="" alt="gif" />
+<img height="200" src="https://github.com/Talyslan/Maya-Landing-Page/assets/78499700/3afc5d6d-e600-4df0-92ff-7a15e8e45af2" alt="gif" />
 
 <blockquote>Uma IA pronto para seu negócio, conheça a Maya!</blockquote>
-
- 
 
 ## 📌 Como ver
 
