@@ -25,11 +25,18 @@
 }
 
 @media only screen and (max-width: 950px) {
-    #hero h1,
-    #hero h1 div {
-        gap: 0em;
+    #hero .AIname {
         flex-direction: column;
-        align-items: center;
+        gap: 0em;
+        justify-content: flex-end;
+    }
+
+    .AIname {
+        margin-bottom: 10em;
+    }
+
+    .AIname h1 {
+        font-size: 10em;
     }
 }
 
@@ -50,14 +57,13 @@
     #contact .labelsArea label {
         width: 100%;
     }
+
+    #contact .labelsArea textarea {
+        height: 100px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-    #hero h1,
-    #hero h1 div {
-        font-size: 3em;
-    }
-
     h2 {
         font-size: 2em
     }

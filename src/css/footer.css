@@ -1,5 +1,5 @@
 footer {
-    padding: 2em 0;
+    padding: 2.5em 0 .8em 0;
 }
 
 footer span {
@@ -7,4 +7,5 @@ footer span {
     text-align: center;
     text-transform: capitalize;
     opacity: .5;
+    font-size: .8em;
 }

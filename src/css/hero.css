@@ -1,26 +1,26 @@
 #hero {
     background: radial-gradient(circle, #de4d1b 0%, var(--black) 45%);
+    height: 95vh;
     position: relative;
     display: grid;
     place-items: center; 
-    height: 95vh;
 }
 
 #hero > img {
     width: 40%;
     max-width: 500px;
-    min-width: 250px;
+    min-width: 300px;
     position: absolute;
     bottom: 0;
-    /* filter: drop-shadow(0 0 4px var(--orange)); */
 }
 
-h1,
-h1 div {
-    font-family: 'Azonix', sans-serif;
-    font-size: 3.5em;
-    text-shadow: 0 0 24px var(--orange);
+.AIname {
     display: flex;
-    justify-content: center;
-    gap: 5em;
+    gap: 14em;
+}
+
+.AIname h1 {
+    font-family: 'Azonix', sans-serif;
+    text-shadow: 0 0 24px var(--orange);
+    font-size: 14em;
 }
