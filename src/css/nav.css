@@ -6,17 +6,12 @@ nav {
     justify-content: space-between;
 }
 
-.open-nav,
-.close-nav {
-    display: none;
-    font-size: 1.5em;
-}
-
 header {
     padding: .5em 2em;
     position: fixed;
     top: 0;
     z-index: 1;
+    transition: all .5s ease;
 }
 
 nav {
@@ -26,6 +21,13 @@ nav {
 
 /* Site Logo */
 header > a > img {
+    display: none;
+    width: 3.3em;
+    filter: invert();
+    transition: all .3s ease;
+}
+
+nav > a > img {
     width: 3.3em;
     filter: invert();
     transition: all .3s ease;
@@ -49,19 +51,94 @@ nav ul li > a:hover {
     border-bottom-color: var(--orange);
 }
 
-/* Depois de scrolled */
-.scrolled {
+.open-nav,
+.close-nav {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.close-nav {
+    font-size: 2em;
+    position: absolute;
+}
+
+/* after scrolled */
+.nav-opened,
+.scrolled,
+.nav-opened nav,
+.scrolled nav {
     background: var(--white);
 }
 
+.nav-opened nav a,
 .scrolled nav a {
     color: var(--black);
 }
 
+.nav-opened .open-nav,
+.nav-opened .close-nav,
+.scrolled .open-nav,
+.scrolled .close-nav {
+    color: var(--black);
+}
+
+
+.nav-opened nav a > img,
+.nav-opened > a > img,
+.nav-opened > a > img,
+.scrolled nav a > img,
+.scrolled > a > img,
 .scrolled > a > img {
     filter: invert(0%);
 }
 
-.scrolled nav > a:last-child:hover {
+.nav-opened nav>a:last-child:hover,
+.scrolled nav>a:last-child:hover {
     color: var(--white);
+}
+
+/* after opened on mobile */
+.nav-opened {
+    height: 100%;
+    padding: 0;
+}
+
+.nav-opened nav {
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.nav-opened nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nav-opened nav > .link {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nav-opened nav > a > img {
+    position: absolute;
+    margin: 1em 0 0 1em;
+}
+
+.nav-opened .close-nav {
+    display: block;
+    right: 0;
+    margin: .5em 1em 0 0;
+}
+
+.nav-opened > a > img,
+.nav-opened > span {
+    display: none;
 }

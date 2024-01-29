@@ -1,0 +1,16 @@
+@media only screen and (max-width: 730px) {
+    /* nav styles */
+    nav {
+        display: none;
+        height: 0;
+    }
+    /* end nav style */
+
+    .open-nav {
+        display: block;
+    }
+
+    header > a > img {
+        display: block;
+    }
+}
